@@ -12,11 +12,11 @@ pipeline {
       }
     }
 
-    stage('Run') {
-      steps {
-        sh 'docker run my-app'
-      }
-    }
+    // stage('Run') {
+    //   steps {
+    //     sh 'docker run my-app'
+    //   }
+    // }
 
   }
 }
